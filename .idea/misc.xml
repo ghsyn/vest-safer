@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable-v24/buttonshape_dark_gray.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable-v24/buttonshape_gray.xml" value="0.232" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable-v24/buttonshape_white.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable-v24/selector_location_mgr.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable/buttonshape_2.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable/edittext_login.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable/ic_my_icon.xml" value="0.2045" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable/login.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/drawable/welcomeback.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_admin_activitiy.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_location.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_location_info.xml" value="0.25" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_main.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_management.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manager_main.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manager_map.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manual_electricity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manual_nangan.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manualload.xml" value="0.23020833333333332" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manul_test.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_manul_transport.xml" value="0.1" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_safety.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_safetymgr.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_welcom.xml" value="0.4173913181932306" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_worker_calendar_view.xml" value="0.2086956590966153" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_worker_manual.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_worker_map.xml" value="0.18365218000502148" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/activity_worker_safety.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/adduserdial.xml" value="0.33458177278401996" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/admin.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/mgr_saftyuser.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/safety_user.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/safetylow.xml" value="0.2086956590966153" />
+        <entry key="..\:/Users/ksj25/AndroidStudioProjects/SmartVest/app/src/main/res/layout/user.xml" value="0.2754782700075322" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
