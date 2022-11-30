@@ -1,4 +1,4 @@
-// 가스 센서 //
+// 가스 센서  //
 
 #include <SoftwareSerial.h>
 #include "MQ7.h"
