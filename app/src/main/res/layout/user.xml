@@ -24,27 +24,28 @@
             android:id="@+id/userName"
             android:text="이름"
             android:textSize="48dp"
-            android:textColor="@color/warning"/>
+            android:textColor="#527578" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/userID"
             android:text="아이디"
-            android:textSize="26dp"
-            android:textColor="@color/app_name_color"/>
+            android:textSize="20dp"
+            android:textColor="@color/app_name_color"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/userPassword"
             android:text="비밀번호"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="@color/app_name_color"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/userAge"
             android:text="나이"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="@color/app_name_color"/>
     </LinearLayout>
 
@@ -62,7 +63,7 @@
             android:id="@+id/deleteButton"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/edittext_login"
+            android:backgroundTint="#527578"
             android:text="삭제"
             android:textColor="@color/colorWhite"
             android:textSize="18dp" />

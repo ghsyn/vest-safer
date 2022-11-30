@@ -5,6 +5,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/welcomeback"
     android:orientation="vertical" >
 
     <CalendarView
@@ -60,7 +61,7 @@
         android:gravity="center"
         android:text="공사 일정"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/Yellow"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

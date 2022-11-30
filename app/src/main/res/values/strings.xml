@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">SmartVest</string>
-    <string name="smart_vest_icon_stroke">smart vest icon</string>
+    <string name="app_name">VestSafer</string>
+    <string name="vest_safer_icon_stroke">vest safer icon</string>
     <string name="login_worker">작업자 로그인</string>
     <string name="login_manager">관리자 로그인</string>
     <string name="text_login">로그인</string>
@@ -23,7 +23,7 @@
     <string name="text_my_vest_number">"내 조끼 번호  |  "</string>
     <string name="text_vest_connection">"조끼 연결 상태  |  "</string>
     <string name="text_worker_count">"현재 작업자 수  |  "</string>
-    <string name="text_manual_smartvest">스마트 조끼 매뉴얼</string>
+    <string name="text_manual_vestsafer">스마트 조끼 매뉴얼</string>
     <string name="text_manual_nangan">안전난간\n안전 매뉴얼</string>
     <string name="text_manual_electricity">전기 기계,기구 \n안전 매뉴얼</string>
     <string name="text_manual_load">이동식 비계\n안전 매뉴얼</string>

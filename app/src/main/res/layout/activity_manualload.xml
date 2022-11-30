@@ -7,7 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/titlebar_underline"
+        android:background="#84978F"
         android:paddingTop="10dp"
         android:paddingBottom="10dp">
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="이동식비계 안전매뉴얼"
-            android:textColor="@color/app_name_color"
+            android:textColor="@color/background"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

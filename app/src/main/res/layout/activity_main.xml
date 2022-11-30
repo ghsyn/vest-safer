@@ -9,20 +9,29 @@
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
     android:paddingTop="16dp"
-    android:background="#fefbe1"
+    android:background="#84978F"
     tools:context=".MainActivity">
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="120dp"
         android:text="SmartVest"
-        android:textColor="@color/Yellow"
-        android:textSize="58dp"
-        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="58sp"
+        android:textStyle="italic"
          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="VestSafer"
+        android:textColor="#527578"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        />
 
     <EditText
             android:id="@+id/IdText"
@@ -30,67 +39,71 @@
             android:layout_height="50dp"
             android:layout_marginStart="3dp"
             android:layout_marginEnd="3dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="90dp"
             android:layout_marginBottom="3dp"
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:ems="10"
-            android:hint="아이디"
+            android:hint="ID"
             android:inputType="textPersonName"
             android:background="@drawable/login"
-             app:layout_constraintBottom_toTopOf="@+id/PasswordText"
+            app:layout_constraintBottom_toTopOf="@+id/PasswordText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
         />
-        <EditText
-            android:id="@+id/PasswordText"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="14dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:hint="패스워드"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toTopOf="@+id/button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.6"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/IdText"
-            android:background="@drawable/login"/>
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="13dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginEnd="3dp"
-            android:layout_gravity="center_horizontal"
-            android:text="로그인"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/registerbutton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/PasswordText"
-            android:background="@drawable/edittext_login"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/PasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdText"
+        android:background="@drawable/login"
+        />
 
-        <TextView
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="3dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#527578"
+        android:text="로그인"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:icon="@drawable/button_loginregister"
+        app:layout_constraintBottom_toTopOf="@id/registerbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordText" />
+
+    <TextView
             android:id="@+id/registerbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="회원가입"
-            android:textColor="#2b3f6b"
+            android:textColor="@color/background"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -98,6 +111,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button"
             android:layout_gravity="center"/>
-
 
 </LinearLayout>
