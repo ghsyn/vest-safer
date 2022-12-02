@@ -108,7 +108,7 @@ from keras.models import Model
 from keras import regularizers
 
 #load sensor data
-data_dir = 'C:/Users/S20184277/Desktop/data'
+data_dir = 'C:\\Users\\dlwls\\OneDrive\\바탕 화면\\data'
 merged_data = pd.DataFrame()
 
 for filename in os.listdir(data_dir):
@@ -127,7 +127,7 @@ merged_data.to_csv('Averaged_SensorTest_Dataset.csv')
 print("Dataset shape:", merged_data.shape)
 merged_data.head()
 
-#define sample data
+#define sample data, need change
 train = merged_data['YYYY-mm-dd HH:MM:SS(start)': 'YYYY-mm-dd HH:MM:SS(fin)']
 test = merged_data['YYYY-mm-dd HH:MM:SS(start)':]
 print("Training dataset shape:", train.shape)
@@ -226,7 +226,7 @@ sns.distplot(scored['Loss_mae'], bins = 20, kde= True, color = 'blue');
 plt.xlim([0.0,.5])
 
 
-#calculate loss
+#calculate loss, threshold need change
 X_pred = model.predict(X_test)
 X_pred = X_pred.reshape(X_pred.shape[0], X_pred.shape[2])
 X_pred = pd.DataFrame(X_pred, columns=test.columns)
