@@ -1,7 +1,12 @@
-// 가스 센서 및 충격 센서 //
+// 아두이노
 
 #include <SoftwareSerial.h>
 #include "MQ7.h"
+#include <DHT.h>
+#define DHTPIN A2
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
 
 #define BT_RXD 2
 #define BT_TXD 4
@@ -14,6 +19,9 @@ int CO_sensor = A0; // 일산화탄소 핀 번호
 int shock_sensor = A1;  // 충격센서 핀 번호
 int shock_value = 0;    // 센서에서 입력 받은 충격 
 
+int Humidity = 0; // 습도
+int Temperature = 0; // 온도
+ 
 int read_Button = 0; // 버튼 누름 여부 데이터
 
 int waiting = 40;    
@@ -28,6 +36,7 @@ void setup(){
   pinMode(7,INPUT_PULLUP);
   pinMode(sound,OUTPUT);
   pinMode(shock_sensor,INPUT);
+
 }
 
 void loop(){
@@ -39,28 +48,16 @@ void loop(){
 
   int CO_value = int(mq7.getPPM());  // 일산화탄소 값 받기
 
-  
- Serial.print("Button press :"); 
-  if (read_Button == LOW)
-  {
-    Serial.println("1");
-    for(int i= 0; i<3; i++){  
-    digitalWrite(sound,HIGH); 
-    digitalWrite(sound,LOW);
-    }
-  }
-  else
-  {
-   Serial.println("0");
-   digitalWrite(sound,LOW);
-  }
-
+  Humidity = dht.readHumidity();
+  Temperature = dht.readTemperature();
   
 // 시리얼 모니터에 값 출력
-  Serial.println(shock_value);
+  Serial.print(shock_value);
+  Serial.print(" ");
+  Serial.print(CO_value);
+  Serial.print(" ");
+  Serial.println(Temperature);
 
-  Serial.println(CO_value);
-  
    if (read_Button == HIGH)
   {
     bluetooth.print("0");
@@ -80,6 +77,18 @@ void loop(){
   bluetooth.print((CO_value%1000)/100);
   bluetooth.print((CO_value%100)/10);
   bluetooth.print(CO_value%10);
+
+
+  bluetooth.print(Humidity/100);
+  bluetooth.print((Humidity%100)/10);
+  bluetooth.print(Humidity%10);
+
+  bluetooth.print(Temperature/100);
+  bluetooth.print((Temperature%100)/10);
+  bluetooth.println(Temperature%10);
+
+
+
 
 }
 
