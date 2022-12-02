@@ -83,33 +83,29 @@ void loop(){
 
 }
 
-// 아두이노에서 학습용 데이터 추출을 위한 코드 //
 
-#import
+// LSTM을 이용한 이상치 탐지 //
 import serial
 import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.externals import joblib
+import joblib
 import seaborn as sns
 sns.set(color_codes=True)
 import matplotlib.pyplot as plt
 %matplotlib inline
 
 from numpy.random import seed
-from tensorflow import set_random_seed
 import tensorflow as tf
-tf.logging.set_verbosity(tf.logging.ERROR)
+seed(10)
+tf.random.set_seed(10)
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 
 from keras.layers import Input, Dropout, Dense, LSTM, TimeDistributed, RepeatVector
 from keras.models import Model
 from keras import regularizers
-
-#randomize seed
-seed(10)
-set_random_seed(10)
 
 #load sensor data
 data_dir = 'C:/Users/S20184277/Desktop/data'
@@ -265,8 +261,8 @@ model.save("Cloud_model.h5")
 print("Model saved")
 
 
-// LSTM을 이용한 이상치 탐지 //
 
+// 아두이노에서 학습용 데이터 추출을 위한 코드 //
 import serial
 import csv
 import time
